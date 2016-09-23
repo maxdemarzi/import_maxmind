@@ -1,3 +1,8 @@
+neo4j-enterprise-3.0.6
+neo4j-enterprise-3.0.6-unix.tar.gz
+.idea
+*.iml
+target
 *.class
 
 # Mobile Tools for Java (J2ME)
