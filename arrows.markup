@@ -1,0 +1,32 @@
+<ul class="graph-diagram-markup" data-internal-scale="1.24" data-external-scale="1">
+  <li class="node" data-node-id="0" data-x="420.0554608991068" data-y="419.6155740061113">
+    <span class="caption">Continent</span><dl class="properties"><dt>code</dt><dd>String</dd><dt>name</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="1" data-x="1012.0762653966092" data-y="98.43440628051758">
+    <span class="caption">Country</span><dl class="properties"><dt>code</dt><dd>String</dd><dt>name</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="2" data-x="509.0029296875" data-y="98.43440628051758">
+    <span class="caption">State</span><dl class="properties"><dt>code</dt><dd>String</dd><dt>name</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="3" data-x="-342.82144355773926" data-y="-235.9685173034668">
+    <span class="caption">TimeZone</span><dl class="properties"><dt>name</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="4" data-x="-65.6507772322624" data-y="399.48773067228245">
+    <span class="caption">Metro</span><dl class="properties"><dt>code</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="5" data-x="-500.54167778261257" data-y="98.43440628051758">
+    <span class="caption">City</span><dl class="properties"><dt>code</dt><dd>String</dd><dt>name</dt><dd>String</dd></dl></li>
+  <li class="relationship" data-from="1" data-to="0">
+    <span class="type">IN_LOCATION</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="1">
+    <span class="type">IN_LOCATION</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="3">
+    <span class="type">IN_TIMEZONE</span>
+  </li>
+  <li class="relationship" data-from="4" data-to="2">
+    <span class="type">IN_LOCATION</span>
+  </li>
+  <li class="relationship" data-from="5" data-to="4">
+    <span class="type">IN_LOCATION</span>
+  </li>
+  <li class="relationship" data-from="5" data-to="2">
+    <span class="type">IN_LOCATION</span>
+  </li>
+</ul>
