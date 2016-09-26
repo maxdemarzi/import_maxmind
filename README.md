@@ -31,3 +31,5 @@ Import the MaxMind Cities Database into Neo4j
         # for example:
         :POST /v1/import/locations {"file":"/Users/maxdemarzi/Projects/import_maxmind/src/main/resources/data/GeoLite2-City-Locations-en.csv"}
         
+        
+This product includes GeoLite2 data created by MaxMind, available from <a href="http://www.maxmind.com">http://www.maxmind.com</a>.        
